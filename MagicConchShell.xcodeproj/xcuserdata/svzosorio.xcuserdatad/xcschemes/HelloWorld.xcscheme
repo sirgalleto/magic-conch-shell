@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "92381FE11CA4725800B9AD21"
-               BuildableName = "MaigConchShell.app"
-               BlueprintName = "MaigConchShell"
-               ReferencedContainer = "container:MaigConchShell.xcodeproj">
+               BuildableName = "MagicConchShell.app"
+               BlueprintName = "MagicConchShell"
+               ReferencedContainer = "container:MagicConchShell.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92381FE11CA4725800B9AD21"
-            BuildableName = "MaigConchShell.app"
-            BlueprintName = "MaigConchShell"
-            ReferencedContainer = "container:MaigConchShell.xcodeproj">
+            BuildableName = "MagicConchShell.app"
+            BlueprintName = "MagicConchShell"
+            ReferencedContainer = "container:MagicConchShell.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92381FE11CA4725800B9AD21"
-            BuildableName = "MaigConchShell.app"
-            BlueprintName = "MaigConchShell"
-            ReferencedContainer = "container:MaigConchShell.xcodeproj">
+            BuildableName = "MagicConchShell.app"
+            BlueprintName = "MagicConchShell"
+            ReferencedContainer = "container:MagicConchShell.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92381FE11CA4725800B9AD21"
-            BuildableName = "MaigConchShell.app"
-            BlueprintName = "MaigConchShell"
-            ReferencedContainer = "container:MaigConchShell.xcodeproj">
+            BuildableName = "MagicConchShell.app"
+            BlueprintName = "MagicConchShell"
+            ReferencedContainer = "container:MagicConchShell.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

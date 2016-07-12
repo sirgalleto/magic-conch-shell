@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92381FE21CA4725800B9AD21 /* MaigConchShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaigConchShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92381FE21CA4725800B9AD21 /* MagicConchShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicConchShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92381FE51CA4725800B9AD21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92381FE71CA4725800B9AD21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92381FEA1CA4725800B9AD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				92381FF71CA48F6500B9AD21 /* AVFoundation.framework */,
-				92381FE41CA4725800B9AD21 /* HelloWorld */,
+				92381FE41CA4725800B9AD21 /* MagicConchShell */,
 				92381FE31CA4725800B9AD21 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		92381FE31CA4725800B9AD21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92381FE21CA4725800B9AD21 /* MaigConchShell.app */,
+				92381FE21CA4725800B9AD21 /* MagicConchShell.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92381FE41CA4725800B9AD21 /* HelloWorld */ = {
+		92381FE41CA4725800B9AD21 /* MagicConchShell */ = {
 			isa = PBXGroup;
 			children = (
 				92381FE51CA4725800B9AD21 /* AppDelegate.swift */,
@@ -65,15 +65,16 @@
 				92381FEE1CA4725800B9AD21 /* LaunchScreen.storyboard */,
 				92381FF11CA4725800B9AD21 /* Info.plist */,
 			);
+			name = MagicConchShell;
 			path = HelloWorld;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92381FE11CA4725800B9AD21 /* MaigConchShell */ = {
+		92381FE11CA4725800B9AD21 /* MagicConchShell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92381FF41CA4725800B9AD21 /* Build configuration list for PBXNativeTarget "MaigConchShell" */;
+			buildConfigurationList = 92381FF41CA4725800B9AD21 /* Build configuration list for PBXNativeTarget "MagicConchShell" */;
 			buildPhases = (
 				92381FDE1CA4725800B9AD21 /* Sources */,
 				92381FDF1CA4725800B9AD21 /* Frameworks */,
@@ -83,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = MaigConchShell;
+			name = MagicConchShell;
 			productName = HelloWorld;
-			productReference = 92381FE21CA4725800B9AD21 /* MaigConchShell.app */;
+			productReference = 92381FE21CA4725800B9AD21 /* MagicConchShell.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 92381FDD1CA4725800B9AD21 /* Build configuration list for PBXProject "MaigConchShell" */;
+			buildConfigurationList = 92381FDD1CA4725800B9AD21 /* Build configuration list for PBXProject "MagicConchShell" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92381FE11CA4725800B9AD21 /* MaigConchShell */,
+				92381FE11CA4725800B9AD21 /* MagicConchShell */,
 			);
 		};
 /* End PBXProject section */
@@ -251,13 +252,12 @@
 		92381FF51CA4725800B9AD21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.svzosorio.MagicConchShell;
-				PRODUCT_NAME = MaigConchShell;
+				PRODUCT_NAME = MagicConchShell;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -265,13 +265,12 @@
 		92381FF61CA4725800B9AD21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.svzosorio.MagicConchShell;
-				PRODUCT_NAME = MaigConchShell;
+				PRODUCT_NAME = MagicConchShell;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -279,7 +278,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92381FDD1CA4725800B9AD21 /* Build configuration list for PBXProject "MaigConchShell" */ = {
+		92381FDD1CA4725800B9AD21 /* Build configuration list for PBXProject "MagicConchShell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92381FF21CA4725800B9AD21 /* Debug */,
@@ -288,7 +287,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92381FF41CA4725800B9AD21 /* Build configuration list for PBXNativeTarget "MaigConchShell" */ = {
+		92381FF41CA4725800B9AD21 /* Build configuration list for PBXNativeTarget "MagicConchShell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92381FF51CA4725800B9AD21 /* Debug */,
